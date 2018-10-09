@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
+		<title>Who we are and why we are here</title> 
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="aboutStyleP1.css" />
+	</head>
+	<body>
+		<a class="link" href="indexP1.html">Home</a>
+		<a class="link1" href="galleryP1.html">Our favourite albums</a>
+
+		<h1>DJ Mash, the most dynamic music sourcing platform</h1>
+		
+		<h2>Who we are</h2>
+
+		<p class="par">We are true believers of the power of music, and as such, we have created a unique platform where you can source the best tracks out there in one simple step. Type in the name of your favourite artist, press enter (or click the "Enjoy" button) and our site will find that artist's top track and it's Youtube video. Less time searching, more time for music. Feel the vibes, and enjoy the ride...</p>
+
+		<h2>Behind the scenes</h2>
+
+		<p class="par">The way this works is simple. Once you type in an artist's name and press enter (or hit the button), a search request is made to last.fm's API. The function making the request basically looks for the artist's top tracks in last.fm's database, retrieves the first track in the array, and displays it on the screen. Once this has been done, a search request is made to Youtube's API using last.fm's search result. The name of the artist and retrieved song are sent to Youtube's search API, which then sends the top result for that query to our website. The video is then embeded, ready to be played.</p>
+
+		<h2>Our roots</h2>
+
+		<p class="par">It was a hot and humid night at NYUAD (hard to believe!) when Nikushade and I decided to try out the new speakers we bought from NYC during our semester abroad. Neither of us had a Spotify nor an Apple Music account at the time (NYC was financially draining) so we opened up Youtube and starting searching. It took a while, and we were unsure as to what specific songs to search, which kind of killed the mood and didn't do justice to our new babies (the speakers, of course). That's when the idea magically surged: what if we could search the best tracks, from a trusted music platform, by just typing an artist's name? The rest is history.</p>
+
+		<div id="youtubeVideo"></div>
+
+		<img src="turntable2.png" id="img" class="img"></div>
+
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="scriptsPJ1.js"></script>
+	</body>
+</html>
